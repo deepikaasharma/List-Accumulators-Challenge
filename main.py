@@ -54,20 +54,8 @@ Then after collecting the values in the two separate lists:
 
 
 '''Finish writing the function divisors according to its docstring.'''
-"""n = 0
-div_of_n = []
-all_div = []
-def divisors(n):
-  for div in all_div:
-    if n%div ==0:
-      if div !=n:
-        div_of_n.append(div)
 
-  return div_of_n
-
-print(div_of_n)"""
-
-n=0
+"""n=0
 def divisors(n):
   proper_divisors_lst = []
   for div in range(1,n):
@@ -75,4 +63,4 @@ def divisors(n):
       proper_divisors_lst.append(div)
   return proper_divisors_lst
 
-print(divisors(49))
+print(divisors(49))"""
